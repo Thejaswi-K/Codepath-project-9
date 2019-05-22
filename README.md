@@ -36,21 +36,21 @@ Each version of the site has been given two of the six vulnerabilities.
 
 ## Blue
 
-Vulnerability #1: _______SQLi_______
+Vulnerability #1: SQLi
 
 Vulnerability #2: __________________
 
 
 ## Green
 
-Vulnerability #1: _User Enumeration_
+Vulnerability #1: User Enumeration
 
-Vulnerability #2: _______XSS________
+Vulnerability #2: XSS
 
 
 ## Red
 
-Vulnerability #1: ______IDOR________
+Vulnerability #1: IDOR
 
 Vulnerability #2: __________________
 
