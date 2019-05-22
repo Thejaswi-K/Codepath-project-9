@@ -43,6 +43,10 @@ we can insert a blind XSS through the feedback form. It gets triggered when admi
 
 ### Cross-Site Request Forgery (CSRF)
 ### Session Hijacking/Fixation
+> Blue
+
+Web Browsers: Chrome and Internet Explorer
+We can log in to the blue website in Chrome using the pperson account. Once logged in, We can go to https://104.198.208.81/blue/public/hacktools/change_session_id.php and use this tool to copy the session ID. We can then launch Internet Explorer and go to the blue website login page. We can go to the change_session_id.php page and paste the session ID from the Google Chrome session. When we go back to the blue login page in Internet Explorer, click Public, and we get logged into the portal as if the user pperson was logged in already.
 
 Each version of the site has been given two of the six vulnerabilities.
 
@@ -50,7 +54,7 @@ Each version of the site has been given two of the six vulnerabilities.
 
 Vulnerability #1: SQLi
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking
 
 
 ## Green
@@ -64,7 +68,7 @@ Vulnerability #2: XSS
 
 Vulnerability #1: IDOR
 
-Vulnerability #2: __________________
+Vulnerability #2: CSRF
 
 
 ## Notes
