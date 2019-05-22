@@ -9,7 +9,7 @@ The possible exploits are:
 > Green
 The developer used different classes. The developer used class "failed" which is not defined in the /green/public/styles.css file when a non existant user tries to login. The error displayed is not bold. But when existing user logs in the class "failure" is used.
 ### GIF Walkthrough  
- 
+![userenumeration](https://user-images.githubusercontent.com/34077891/58156790-cb6f0780-7c2b-11e9-90a7-3439481e89c6.gif)
  
 ### Insecure Direct Object Reference (IDOR)
 > Red
