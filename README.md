@@ -21,12 +21,13 @@ When you change the id parameter the salesperson details are retrieved if there 
 > Blue
 We can inject "%27%20OR%20SLEEP(5)=0--%27" into the id parameter's value and make the server sleep for 5 seconds
 ### GIF Walkthrough
+![SQLi](https://user-images.githubusercontent.com/34077891/58156947-256fcd00-7c2c-11e9-967a-e328a52a7184.gif)
 
-* Cross-Site Scripting (XSS)
-* Cross-Site Request Forgery (CSRF)
-* Session Hijacking/Fixation
+### Cross-Site Scripting (XSS)
+### Cross-Site Request Forgery (CSRF)
+### Session Hijacking/Fixation
 
-Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
+Each version of the site has been given two of the six vulnerabilities.
 
 ## Blue
 
