@@ -47,6 +47,9 @@ we can insert a blind XSS through the feedback form. It gets triggered when admi
 
 Web Browsers: Chrome and Internet Explorer
 We can log in to the blue website in Chrome using the pperson account. Once logged in, We can go to https://104.198.208.81/blue/public/hacktools/change_session_id.php and use this tool to copy the session ID. We can then launch Internet Explorer and go to the blue website login page. We can go to the change_session_id.php page and paste the session ID from the Google Chrome session. When we go back to the blue login page in Internet Explorer, click Public, and we get logged into the portal as if the user pperson was logged in already.
+### GIF Walkthrough
+![SESS](https://user-images.githubusercontent.com/34077891/58160831-0bd28380-7c34-11e9-88de-01dc07ecdf5a.gif)
+
 
 Each version of the site has been given two of the six vulnerabilities.
 
