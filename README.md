@@ -24,6 +24,11 @@ We can inject "%27%20OR%20SLEEP(5)=0--%27" into the id parameter's value and mak
 ![SQLi](https://user-images.githubusercontent.com/34077891/58156947-256fcd00-7c2c-11e9-967a-e328a52a7184.gif)
 
 ### Cross-Site Scripting (XSS)
+> Green
+we can insert a blind XSS through the feedback form. It gets triggered when admin tries to open the list of feedback
+### GIF Walkthrough
+![XSS](https://user-images.githubusercontent.com/34077891/58157914-2d307100-7c2e-11e9-9194-4aa46b6202a8.gif)
+
 ### Cross-Site Request Forgery (CSRF)
 ### Session Hijacking/Fixation
 
@@ -40,7 +45,7 @@ Vulnerability #2: __________________
 
 Vulnerability #1: _User Enumeration_
 
-Vulnerability #2: __________________
+Vulnerability #2: _______XSS________
 
 
 ## Red
