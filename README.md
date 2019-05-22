@@ -1,13 +1,26 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 20 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
-The six possible exploits are:
-* Username Enumeration
-* Insecure Direct Object Reference (IDOR)
-* SQL Injection (SQLi)
+The possible exploits are:
+### Username Enumeration 
+> Green
+The developer used different classes. The developer used class "failed" which is not defined in the /green/public/styles.css file when a non existant user tries to login. The error displayed is not bold. But when existing user logs in the class "failure" is used.
+### GIF Walkthrough  
+ 
+ 
+### Insecure Direct Object Reference (IDOR)
+> Red
+When you change the id parameter the salesperson details are retrieved if there exists a user with that id. 
+### GIF Walkthrough
+
+### SQL Injection (SQLi)
+> Blue
+We can inject "%27%20OR%20SLEEP(5)=0--%27" into the id parameter's value and make the server sleep for 5 seconds
+### GIF Walkthrough
+
 * Cross-Site Scripting (XSS)
 * Cross-Site Request Forgery (CSRF)
 * Session Hijacking/Fixation
@@ -16,21 +29,21 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: _______SQLi_______
 
 Vulnerability #2: __________________
 
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: _User Enumeration_
 
 Vulnerability #2: __________________
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: ______IDOR________
 
 Vulnerability #2: __________________
 
