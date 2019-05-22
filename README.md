@@ -45,7 +45,7 @@ we can insert a blind XSS through the feedback form. It gets triggered when admi
 > Red
 A dummy.html file containing a form that POSTs an update to the target website. We can post a link in the Feedback section as a user that is known to the admin. When clicked, the link silently makes a change to the first name of a user with id 3 in the database.
 
-NOTE: the dummy.html file has the script to change the first name of id 3. I hosted it in my local machine.
+NOTE: the dummy.html file in the repo has the script to change the first name of id 3. I hosted it in my local machine.
 ### GIF Walkthrough
 ![CSRF](https://user-images.githubusercontent.com/34077891/58201281-8ed1f900-7c89-11e9-9cae-4b930d36c5c6.gif)
 
