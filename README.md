@@ -42,6 +42,9 @@ we can insert a blind XSS through the feedback form. It gets triggered when admi
 
 
 ### Cross-Site Request Forgery (CSRF)
+> Red
+
+
 ### Session Hijacking/Fixation
 > Blue
 
