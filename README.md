@@ -78,7 +78,5 @@ Vulnerability #1: IDOR
 Vulnerability #2: CSRF
 
 
-## Notes
 
-Describe any challenges encountered while doing the work
 
