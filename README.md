@@ -17,9 +17,9 @@ The developer used different classes. The developer used class "failed" which is
 ### Insecure Direct Object Reference (IDOR)
 > Red
 
-When you change the id parameter the salesperson details are retrieved if there exists a user with that id. 
+When you change the id parameter the salesperson details are retrieved if there exists a user with that id. id 10 and 11 are not accessible normally.
 ### GIF Walkthrough
-![IDOR](https://user-images.githubusercontent.com/34077891/58156894-08d39500-7c2c-11e9-842f-49570a541e0a.gif)
+![IDOR](https://user-images.githubusercontent.com/34077891/58200171-fd618780-7c86-11e9-91e5-5b612a7b67ee.gif)
 
 
 
