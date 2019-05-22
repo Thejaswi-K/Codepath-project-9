@@ -43,7 +43,7 @@ we can insert a blind XSS through the feedback form. It gets triggered when admi
 
 ### Cross-Site Request Forgery (CSRF)
 > Red
-
+A dummy.html file containing a form that POSTs an update to the target website. We can post a link in the Feedback section as a user that is known to the admin. When clicked, the link silently makes a change to the first name of a user with id 3 in the database.
 
 ### Session Hijacking/Fixation
 > Blue
