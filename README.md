@@ -48,7 +48,7 @@ A dummy.html file containing a form that POSTs an update to the target website. 
 ### Session Hijacking/Fixation
 > Blue
 
-Web Browsers: Chrome and Internet Explorer
+Web Browsers: Chrome and Microsoft Edge
 
 We can log in to the blue website in Chrome using the pperson account. Once logged in, We can go to https://104.198.208.81/blue/public/hacktools/change_session_id.php and use this tool to copy the session ID. We can then launch Internet Explorer and go to the blue website login page. We can go to the change_session_id.php page and paste the session ID from the Google Chrome session. When we go back to the blue login page in Internet Explorer, click Public, and we get logged into the portal as if the user pperson was logged in already.
 ### GIF Walkthrough
