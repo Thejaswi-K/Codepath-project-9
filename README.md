@@ -15,6 +15,7 @@ The developer used different classes. The developer used class "failed" which is
 > Red
 When you change the id parameter the salesperson details are retrieved if there exists a user with that id. 
 ### GIF Walkthrough
+![IDOR](https://user-images.githubusercontent.com/34077891/58156894-08d39500-7c2c-11e9-842f-49570a541e0a.gif)
 
 ### SQL Injection (SQLi)
 > Blue
